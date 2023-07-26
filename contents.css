@@ -1,0 +1,99 @@
+header{
+    
+     
+
+}
+
+NAV{
+    height: 50px;px;
+    width:100%;
+    background-color: rgb(228, 20, 113);
+    display: inline-block;
+    text-align: right;
+    border-style: dotted;
+    position: sticky;
+    top: 0;
+}
+
+.sticky{
+
+position: fixed;
+top : 0;
+
+
+}
+
+
+.ul1{
+
+    float: left;
+
+    
+
+}
+
+
+
+a:link{
+
+    text-decoration:none;
+    color: black;
+
+}
+
+a:hover{
+
+background-color:red;
+
+
+
+
+}
+
+a:visited{
+
+color: greenyellow ;
+
+
+
+}
+
+li{ 
+ display: inline-block;
+ margin: 10px ;
+ 
+
+}
+
+SECTION{
+    
+}
+
+ASIDE{
+   
+ 
+
+}
+
+ARTICLE{
+  
+ 
+}
+
+FOOTER{
+    height:100%;
+    width:100%;
+    background-color: rgb(232, 62, 170);
+    display: inline-block;
+    text-align: center;
+    border-style: double;
+   
+}
+
+.option1{
+
+    display: inline-block;
+    text-align: left;
+
+
+}
