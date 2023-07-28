@@ -4,15 +4,29 @@ header{
 
 }
 
+html{
+    
+    background-color: rgb(249, 217, 217);
+    
+    }
+
+.backgroundcolor{
+
+    background-image: linear-gradient(100deg, rgb(209, 132, 174), rgb(194, 34, 114));
+
+}
+
 NAV{
-    height: 50px;px;
+    height: 50px;
     width:100%;
-    background-color: rgb(228, 20, 113);
+    
     display: inline-block;
     text-align: right;
-    border-style: dotted;
+    
     position: sticky;
+    
     top: 0;
+   
 }
 
 .sticky{
@@ -65,8 +79,15 @@ li{
 
 }
 
-SECTION{
-    
+label {
+    /*display changes the place of the input box*/
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
 }
 
 ASIDE{
@@ -76,24 +97,42 @@ ASIDE{
 }
 
 ARTICLE{
-  
+
+    float: right;
+    padding:0%;
+
  
 }
 
+i{
+
+color: rgba(218, 114, 114, 0.952);
+float: left;
+margin: 100px;
+text-align: center;
+
+
+
+}
+
 FOOTER{
-    height:100%;
-    width:100%;
-    background-color: rgb(232, 62, 170);
+    
     display: inline-block;
     text-align: center;
-    border-style: double;
+    
    
 }
 
-.option1{
+.address1{
 
-    display: inline-block;
-    text-align: left;
-
+float:left;
 
 }
+
+.address2{
+
+float:right;
+
+}
+
+

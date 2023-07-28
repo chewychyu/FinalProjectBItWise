@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="finalproject.css"></class>
+        <link rel="stylesheet" href="contacts.css"></class>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <header>
-            <h1>  </h1>
+            <h1>  Contacts  </h1>
         </header>
         <nav>
             
@@ -17,9 +19,9 @@
            
             
             <ul>
-                <li> <a href="https://youtu.be/BYSdyxZRBiY"> HOME </a></li>
-                <li> <a href="https://openlibrary.org/works/OL64468W/Brave_New_World"> LOGIN </a></li>
-                <li> <a href="https://en.wikipedia.org/wiki/Myanmar#History"> HELP </a> </li>
+                <li> <a href="http://127.0.0.1:5501/home.html"> Home </a></li>
+                <li> <a href="http://127.0.0.1:5501/contents.html"> Contents </a></li>
+                <li> <a href="http://127.0.0.1:5501/contacts.html"> Contacts </a> </li>
 
 
             </ul>
@@ -29,41 +31,87 @@
       </head>
 
     <body>
-        <div class="option1">
+    
 <section>
     <h1>
-        <ul> 
-        <li> option1 </li>
-        <li> option2 </li>
-        </ul>
-    </h1>  
+        <label for="name">First Name :</label>
+
+       <input type="text" id="name"  name="name" required
+       minlength="10" maxlength="15" size="15">
+       <input type="Submit">
+     
+
+    
+
+        <label for="phone">Enter your phone number:</label>
+
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+               required>
+      <input type="Submit">
+    
+
+    
+        <label for="email">Enter your email:</label>
+
+        <input type="email" id="email"
+               pattern=".+@gmail.com" size="30" required>
+
+       <input type="Submit">
+
+
+
+       <label for="name"> Review/Complaint:</label>
+
+       <input type="text" id="name"  name="name" required
+       minlength="100" maxlength="500" size="15" width="100px" height="500px">
+       <input type="Submit">
+    
+    </h1>
+
+    
 </section>
-        </div>
+        
 <aside> 
-     <h1> <img src="" </h1>
+     <h1>  </h1>
 
 </aside>
 
 <article>
-     <h1> </h1>
+     <h1> <a href="https://twitter.com/GodswillUgwaJr/status/1683553221565112320?s=20"> <i class="fa fa-twitter"> </i> </a>
+        </h1>
 
+    <h2> <a href="https://www.facebook.com/ChyuYawaiPhyo02/"> <i class="fa fa-facebook"></i> </a>
+    </h2>    
+
+    <h3> <a href="https://www.instagram.com/__chyu.qbooo/"> <i class="fa fa-instagram"></i> </a>
+    </h3>
+
+    <h4> <a href="https://www.linkedin.com/in/chyu-yawai-phyo-24b457276/"> <i class="fa fa-linkedin"></i></a>
+    </h4>
 
 </article>
 
 <footer>
-     <h1> </h1>
+    <h1> <img src="Lake Merritt Map.png"  width="100%" height="50%"> </h1>
+    <p>
+        Published by:Chyu Yawai Phyo</p>
+
+
+<div class="address1">
+<a href="mailto:chyuyawaiphyo@gmail.com">  Email:chyuyawaiphyo@gmail.com</a> 
+</div>
+
+<div class="address2">
+<a href="tel:+14153160000">Tele:(415) 316-0000 </a>
+</div>
 
 </footer>
 
 
-<footer>
-    <h1>
-        
-    
-    
-    </h1>
 
-</footer>
+
+
 
 
 

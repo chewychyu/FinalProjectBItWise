@@ -1,16 +1,22 @@
 header{
-    
+   
      
 
 }
 
+html{
+    
+    background-color: rgb(249, 217, 217);;
+    
+    }
+
 NAV{
-    height: 50px;px;
+    height: 100px;
     width:100%;
-    background-color: rgb(228, 20, 113);
+    
     display: inline-block;
     text-align: right;
-    border-style: dotted;
+   
     position: sticky;
     top: 0;
 }
@@ -70,30 +76,52 @@ SECTION{
 }
 
 ASIDE{
+    
    
- 
 
 }
 
 ARTICLE{
-  
+    
  
 }
 
 FOOTER{
-    height:100%;
-    width:100%;
-    background-color: rgb(232, 62, 170);
+    
     display: inline-block;
     text-align: center;
-    border-style: double;
-   
+    
 }
 
-.option1{
+.address1{
 
-    display: inline-block;
-    text-align: left;
+float:left;
+
+}
+
+.address2{
+
+float:right;
+
+}
+
+
+.row{
+
+  
+    display: flex;
 
 
 }
+
+
+.column{
+
+
+    float:left;
+    width: 50%;
+    padding : 5px;
+    
+    
+    
+    }
