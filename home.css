@@ -6,27 +6,49 @@ header{
 
 html{
     
-background-color: rgb(249, 217, 217);;
+    background-color: rgb(249, 217, 217);
+    
+    }
+
+p{
+
+    display: flex;
+   
+    
 
 }
+
+
+
 
 NAV{
     height: 50px;
     width:100%;
     background-image: none;
-    background-color: rgb(226, 91, 114);
+    background-color: whitesmoke;
     display:block;
-    text-align: right;
+    padding: 14px;
+    text-align: center;
     
     position: sticky;
     top: 0;
     font-family: 'Newsreader', serif;
+    overflow:hidden;
 }
+
 
 body{
     font-family: 'Newsreader', serif;
 
 }
+
+body.img{
+
+    display: inline-block;
+    float: right;
+
+}
+
 
 a:link{
 
@@ -35,32 +57,31 @@ a:link{
 
 }
 
+
 a:hover{
 
-background-color:red;
-
-
-
+background-color:rgb(241, 27, 145);
 
 }
 
-audio{
 
-    height:30px;
+.meditation{
+
+    
     
 
 }
 
 a:visited{
 
-color: greenyellow ;
+color:red;
 
 
 
 }
 
 li{ 
- display: inline-block;
+ display: inline-block; /*makes dots disappear*/
  margin: 10px ;
  
 
@@ -68,18 +89,49 @@ li{
 
 SECTION{
 
-   
-   
+overflow:hidden;
+
 }
+
+img {
+    float: left;
+    margin-right: 100px;
+    clear:both;
+}
+
+
+p{
+
+
+
 }
 
     
 
 
-ASIDE{
-   
+aside{
+
+float:left;
+float:right;
+display: flex;
+margin: ;  
+padding:;  
+width: ;
+justify-content: space-between;
    
 }
+
+section{
+
+
+    float:left;
+    float:right;
+    display: flex;
+    margin: ;  
+    padding:;  
+    width: ;
+    justify-content: space-between;
+
 
 }
 
@@ -110,18 +162,18 @@ float:right;
 }
 
 
-.column{
-
-
-float:left;
-width: 50%;
-padding : 0px;
-display: inline-block;
-
-
+.column1{
 
 
 }
+
+.column2{
+
+
+}
+
+
+
 
 /* doesnt change anything yet?*/
 .alt{
@@ -138,7 +190,7 @@ display: inline-block;
 .row{
 
   
-    display: flex;
+   display: flex;
 
 
 }

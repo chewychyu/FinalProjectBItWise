@@ -1,6 +1,6 @@
 header{
     
-     
+   
 
 }
 
@@ -10,24 +10,22 @@ html{
     
     }
 
-.backgroundcolor{
 
-    background-image: linear-gradient(100deg, rgb(209, 132, 174), rgb(194, 34, 114));
-
-}
 
 NAV{
     height: 50px;
     width:100%;
-    
-    display: inline-block;
-    text-align: right;
-    
+    background-image: none;
+    background-color: whitesmoke;
+    text-align: center;
+    display: block;
+    padding: 14px;
     position: sticky;
-    
     top: 0;
-   
+    font-family: 'Newsreader', serif;
 }
+
+
 
 .sticky{
 
@@ -38,13 +36,7 @@ top : 0;
 }
 
 
-.ul1{
 
-    float: left;
-
-    
-
-}
 
 
 
@@ -57,7 +49,7 @@ a:link{
 
 a:hover{
 
-background-color:red;
+background-color:rgb(241, 27, 145);
 
 
 
@@ -66,7 +58,7 @@ background-color:red;
 
 a:visited{
 
-color: greenyellow ;
+color:red ;
 
 
 
@@ -76,19 +68,55 @@ li{
  display: inline-block;
  margin: 10px ;
  
+ 
 
 }
+
+section{
+
+text-align: center;
+border-style: double;
+margin: 100px;
+}
+
+
 
 label {
     /*display changes the place of the input box*/
     display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+    font: 'Fira Sans', sans-serif;
+    font-size: 100px;
+    
 }
 
 input,
 label {
     margin: 0.4rem 0;
 }
+
+
+label,
+textarea {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;  
+
+}
+
+
 
 ASIDE{
    
@@ -98,7 +126,9 @@ ASIDE{
 
 ARTICLE{
 
-    float: right;
+    float: right ;
+    display: inline;
+  
     padding:0%;
 
  
