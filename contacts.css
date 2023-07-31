@@ -6,9 +6,9 @@ header{
 
 html{
     
-    background-color: rgb(249, 217, 217);
+   background-color: rgb(249, 217, 217);
     
-    }
+}
 
 
 
@@ -29,14 +29,11 @@ NAV{
 
 .sticky{
 
-position: fixed;
-top : 0;
+   position: fixed;
+   top : 0;
 
 
 }
-
-
-
 
 
 
@@ -49,34 +46,33 @@ a:link{
 
 a:hover{
 
-background-color:rgb(241, 27, 145);
-
-
+   background-color:rgb(241, 27, 145);
 
 
 }
 
 a:visited{
 
-color:red ;
-
-
+   color:red ;
 
 }
 
-li{ 
- display: inline-block;
- margin: 10px ;
- 
- 
 
+li{ 
+   display: inline-block;
+   margin: 10px ;
+ 
+ 
 }
 
 section{
 
-text-align: center;
-border-style: double;
-margin: 100px;
+   text-align: center;
+   border-style: double;
+   margin: 100px;
+   margin-left: auto;
+   margin-right: auto; 
+   display: block;
 }
 
 
@@ -120,26 +116,19 @@ label {
 
 ASIDE{
    
- 
-
 }
 
 ARTICLE{
-
-    float: right ;
-    display: inline;
-  
-    padding:0%;
-
  
 }
 
 i{
 
-color: rgba(218, 114, 114, 0.952);
-float: left;
-margin: 100px;
-text-align: center;
+   color: rgba(218, 114, 114, 0.952);
+
+   margin:100px;
+   padding: 15px 15px;
+   text-align: center;
 
 
 
@@ -147,21 +136,21 @@ text-align: center;
 
 FOOTER{
     
-    display: inline-block;
-    text-align: center;
+   display: inline-block;
+   text-align: center;
     
    
 }
 
 .address1{
 
-float:left;
+   float:left;
 
 }
 
 .address2{
 
-float:right;
+   float:right;
 
 }
 

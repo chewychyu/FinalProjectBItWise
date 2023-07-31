@@ -27,51 +27,42 @@ NAV{
 
 .sticky{
 
-position: fixed;
-top : 0;
+   position: fixed;
+   top : 0;
 
 
 }
 
-
-.ul1{
-
-   
-    
-    
-
-}
 
 
 
 a:link{
 
-    text-decoration:none;
-    color: black;
+   text-decoration:none;
+   color: black;
 
 }
 
 a:hover{
 
-background-color:rgb(241, 27, 145);
-
-
+    
+   background-color:rgb(241, 27, 145);
 
 
 }
 
 a:visited{
 
-color:  red;
+   color:  red;
 
 
 
 }
 
 li{ 
- display: inline-block;
- margin: 10px ;
- padding-bottom: 50px; /*makes nav bar and photots away*/
+   display: inline-block;
+   margin: 10px ;
+   padding-bottom: 50px; /*makes nav bar and photots away*/
  
  
  
@@ -79,38 +70,38 @@ li{
 }
 
 SECTION{
-    
+    font-family: 'Newsreader', serif; 
 }
 
 ASIDE{
     
- content: center; 
+   content: center; 
 
 }
 
 ARTICLE{
     
 
-display: flex; 
-
+   display: flex; 
+   font-family: 'Newsreader', serif;
 }
 
 FOOTER{
     
-    display: inline-block;
-    text-align: center;
+   display: inline-block;
+   text-align: center;
     
 }
 
 .address1{
 
-float:left;
+   float:left;
 
 }
 
 .address2{
 
-float:right;
+   float:right;
 
 }
 
@@ -118,16 +109,9 @@ float:right;
 .row{
 
   
-    display: flex;
+   display: flex;
 
 
 }
 
 
-.column{
-
-
-  
-    
-    
-}

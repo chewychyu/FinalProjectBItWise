@@ -6,13 +6,13 @@ header{
 
 html{
     
-    background-color: rgb(249, 217, 217);
+   background-color: rgb(249, 217, 217);
     
     }
 
 p{
 
-    display: flex;
+   display: flex;
    
     
 
@@ -27,7 +27,7 @@ NAV{
     background-image: none;
     background-color: whitesmoke;
     display:block;
-    padding: 14px;
+    
     text-align: center;
     
     position: sticky;
@@ -38,99 +38,60 @@ NAV{
 
 
 body{
-    font-family: 'Newsreader', serif;
+   font-family: 'Newsreader', serif;
 
 }
 
-body.img{
 
-    display: inline-block;
-    float: right;
-
-}
 
 
 a:link{
 
-    text-decoration:none;
-    color: black;
+   text-decoration:none;
+   color: black;
 
 }
 
 
 a:hover{
 
-background-color:rgb(241, 27, 145);
+   background-color:rgb(241, 27, 145);
 
 }
 
 
-.meditation{
 
-    
-    
-
-}
 
 a:visited{
 
-color:red;
+   color:red;
 
 
 
 }
 
 li{ 
- display: inline-block; /*makes dots disappear*/
- margin: 10px ;
+   display: inline-block; /*makes dots disappear*/
+   margin: 10px ;
  
 
 }
 
 SECTION{
 
-overflow:hidden;
+   overflow:hidden;
 
 }
 
-img {
-    float: left;
-    margin-right: 100px;
-    clear:both;
-}
-
-
-p{
-
-
-
-}
 
     
-
-
 aside{
 
-float:left;
-float:right;
-display: flex;
-margin: ;  
-padding:;  
-width: ;
-justify-content: space-between;
-   
+
 }
 
 section{
 
-
-    float:left;
-    float:right;
-    display: flex;
-    margin: ;  
-    padding:;  
-    width: ;
-    justify-content: space-between;
 
 
 }
@@ -143,73 +104,27 @@ ARTICLE{
 
 FOOTER{
     
-    display: inline-block;
-    text-align: center;
+   display: inline-block;
+   text-align: center;
   
    
 }
 
 .address1{
 
-float:left;
+   float:left;
 
 }
 
 .address2{
 
-float:right;
+   float:right;
 
 }
 
-
-.column1{
-
-
-}
-
-.column2{
-
-
-}
-
-
-
-
-/* doesnt change anything yet?*/
-.alt{
-    
-    display: inline-block;
-
-
-
-}
-
-
-/*makes a bit more space for photos*/
-
-.row{
-
-  
-   display: flex;
-
-
-}
-
-/*makes home contents and contacts fall a bit down*/
-* {
-    box-sizing: border-box;
-  }
-
-
-  address{
+address{
    
     display:flex;
 
-  }
-
-  /* for audio*/
-  figure {
-    margin: 0;
-    float:left;
-    
 }
+
