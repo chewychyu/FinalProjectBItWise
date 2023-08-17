@@ -28,9 +28,6 @@ li{
  
    /*makes nav bar and photots away*/
    
-   
- 
- 
 }
 
 
@@ -48,8 +45,8 @@ NAV{
    top: 0;
    font-family: 'Caprasimo', serif;
    
- 
 }
+
 
 li{ 
    display: inline-block;
@@ -57,9 +54,8 @@ li{
    padding-bottom: 50px; /*makes nav bar and photots away*/
    font-size: 23px;
  
- 
-
 }
+
 
 a:link{
 
@@ -68,27 +64,26 @@ a:link{
 
 }
 
+
 a:hover{
 
     
    background-color:rgb(241, 27, 145);
 
-
 }
+
 
 a:visited{
 
    color:  red;
 
-
-
 }
-
 
 
 SECTION{
     font-family: 'Newsreader', serif; 
 }
+
 
 ASIDE{
     
@@ -96,12 +91,14 @@ ASIDE{
 
 }
 
+
 ARTICLE{
     
    
    display: flex; 
    font-family: 'Newsreader', serif;
 }
+
 
 FOOTER{
     
@@ -117,6 +114,7 @@ FOOTER{
 
 }
 
+
 .address2{
 
    float:right;
@@ -128,9 +126,8 @@ FOOTER{
 
   
    display: flex;
-
-
 }
+
 
 #menuToggle
 {
@@ -150,10 +147,12 @@ user-selet:none; */
 
 }
 
+
 #menuToggle a: :hover
 {
     color: tomato;
 }
+
 
 #menuToggle input
 {
@@ -170,8 +169,8 @@ user-selet:none; */
   opacity: 0; /* hide this */
   z-index: 2;
   
-  
 } 
+
 
 #menuToggle span
 {
@@ -212,16 +211,19 @@ user-selet:none; */
   background: #232323;
 }
 
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
+
 
 #menu
 {
@@ -244,11 +246,13 @@ user-selet:none; */
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
+
 #menu li
 {
   padding: 10px 0;
   font-size: 18px;
 }
+
 
 #menuToggle input:checked ~ ul
 {
