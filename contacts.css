@@ -42,6 +42,11 @@ li{
 
 }
 
+body{
+
+   font-family: 'Caprasimo', serif;
+}
+
 #menuToggle
 {
 display: block;
