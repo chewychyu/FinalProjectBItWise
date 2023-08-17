@@ -1,6 +1,6 @@
 header{
     
-     
+   font-family: 'Newsreader', serif;
 
 }
 
@@ -8,7 +8,7 @@ html{
     
    background-color: rgb(249, 217, 217);
     
-    }
+}
 
 p{
 
@@ -22,24 +22,33 @@ p{
 
 
 NAV{
-    height: 50px;
-    width:100%;
-    background-image: none;
-    background-color: whitesmoke;
-    display:block;
-    
-    text-align: center;
-    
-    position: sticky;
-    top: 0;
-    font-family: 'Newsreader', serif;
-    overflow:hidden;
+   height: 50px;
+   width:100%;
+   background-image: none;
+   background-color: whitesmoke;
+   text-align: right;
+   display: block;
+   padding: 1px; /*14*/
+   padding-bottom: 10px;
+   
+   position: sticky;
+   top: 0;
+   font-family: 'Caprasimo', serif;
+
+}
+
+
+li{ 
+   display: inline-block; /*makes dots disappear*/
+   margin: 10px ;
+   font-size: 23px;
+
 }
 
 
 body{
    font-family: 'Newsreader', serif;
-
+ 
 }
 
 
@@ -70,12 +79,159 @@ a:visited{
 
 }
 
-li{ 
-   display: inline-block; /*makes dots disappear*/
-   margin: 10px ;
- 
+iframe{
+
+   float: right;
+   margin: 10px;
+}
+
+
+
+#menuToggle
+{
+display: block;
+position: relative;
+top:-30px;
+left:-30px;'
+position: sticky;
+/*icon*/
+
+
+
+/*
+z-index:1;
+webkit-user-selet:none;
+user-selet:none; */
 
 }
+
+#menuToggle a: :hover
+{
+    color: tomato;
+}
+
+
+#menuToggle input
+{
+   
+   width: 40px;
+   height: 32px;
+   top: -7px;
+   left: -5px;
+   position: absolute;
+   
+  
+  /*
+  display: block;
+  cursor: pointer;
+  */
+
+  opacity: 0; 
+  /* for the box behind hamburger menu*/
+  z-index: 2;
+  /* makes the x button work*/
+
+  
+  
+} 
+
+#menuToggle span
+{
+ 
+  /* right side of the x*/ 
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  /* makes x button appear*/
+  
+  transform-origin: 4px 0px;
+  /* upper \ of x  */
+  
+  /*  MAKES THE TRANSITION SMOOTH
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+              */
+}
+
+/*  
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+*/  
+
+
+
+#menuToggle input:checked ~ span
+{ 
+   /* again, x*/
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 200px;
+  margin:-100px 0 0 -50px;
+  /*top*/
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  /*makes list type disappear*/
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform:  none;
+}
+/* transition between menu and check*/
+
+
+
 
 SECTION{
 
@@ -106,7 +262,7 @@ FOOTER{
     
    display: inline-block;
    text-align: center;
-  
+   font-family: 'Newsreader', serif;
    
 }
 
