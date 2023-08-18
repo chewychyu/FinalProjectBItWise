@@ -63,11 +63,14 @@ a:link{
 a:hover{
 
    background-color:rgb(241, 27, 145);
-   
+
 
 }
 
-
+ hr.solid {
+                    border-top: 3px solid #bbb;
+                    width: 500px;
+                  }
 
 
 a:visited{

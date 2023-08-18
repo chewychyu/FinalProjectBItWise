@@ -171,7 +171,10 @@ user-selet:none; */
 /* transition between menu and check*/
 
 
-
+hr.solid {
+   border-top: 3px solid #bbb;
+   width: 500px;
+ }
 
 
 a:link{
@@ -252,10 +255,8 @@ label {
 ASIDE{
    
    
-   margin-top: 0;
-   margin-bottom: 0;
-   margin-left: 0;
-   margin-right: 0;
+ 
+ padding: 0;
 }
 
 ARTICLE{

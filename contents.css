@@ -22,6 +22,12 @@ html{
 
 }
 
+
+hr.solid {
+   border-top: 3px solid #bbb;
+   width: 700px;
+ }
+
 li{ 
    display: inline-block;
   
